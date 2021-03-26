@@ -1,0 +1,14 @@
+{
+  "apps" : [{
+    "name": "RegisterServices",
+    "cwd": "./",
+    "script"    : "app.js",
+    "instances" : "1",
+    "exec_mode" : "fork",
+    "env": {
+      "NODE_ENV": "cacheserver"
+    },
+    "log_date_format": "YYYY-MM-DD_HH:mm Z",
+    "merge_logs": true
+  }]
+}

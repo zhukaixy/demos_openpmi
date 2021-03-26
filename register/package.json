@@ -1,0 +1,12 @@
+{
+  "name": "RegisterService",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "consul": "file:./dependences/consul",
+    "config-lite": "file:./modules/config-lite"
+  }
+}
